@@ -4,7 +4,6 @@ import LoginLayout from './component/login-layout/LoginLayout';
 import Login from "./pages/login/Login"
 const App = () => {
   return (
-  //  <Login/>
     <Routes>
         <Route
           path="/*"
