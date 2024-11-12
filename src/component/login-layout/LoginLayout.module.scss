@@ -1,0 +1,24 @@
+.mainContainer{
+    width: 98%;
+    height: 620px;
+    background-color:var(--white1);
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    .logoContainer{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(7, 48, 34);
+    margin: auto 10px auto auto;
+    border-radius: 20px;
+    img{
+        width: 100%;
+        height: 600px;
+    }
+    }
+        .formContainer {
+            width: 40%;
+            height: 600px;
+            margin: auto;
+        }
+}
