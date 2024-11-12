@@ -5,13 +5,13 @@ import Login from "./pages/login/Login"
 const App = () => {
   return (
   //  <Login/>
-      <Routes>
+    <Routes>
         <Route
           path="/*"
           element={
             <LoginLayout>
               <Routes>
-                <Route path="/login" element={<Login/>} />
+                <Route path="/" element={<Login/>} />
               </Routes>
             </LoginLayout>
           }
